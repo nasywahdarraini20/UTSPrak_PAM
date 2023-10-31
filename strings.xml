@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">UTS_PrakPAM</string>
+    <string name="yourname">Your Name</string>
+    <string name="namaText">Please fill your name</string>
+    <string name="storekedua">Store</string>
+    <string name="location">Location</string>
+    <string name="maps">Find on Maps</string>
+    <string name="tempat">Cihampelas</string>
+    <string name="harga">Price: Rp 66.000,00</string>
+    <string-array name="store_items">
+        <item>Cihampelas</item>
+        <item>Cibiru</item>
+    </string-array>
+</resources>

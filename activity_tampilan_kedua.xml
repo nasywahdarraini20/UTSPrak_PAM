@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".TampilanKedua">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ImageView
+            android:id="@+id/people"
+            android:layout_width="48dp"
+            android:layout_height="43dp"
+            android:src="@drawable/person"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:id="@+id/header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="8dp"
+            android:text="Hello, Asep"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/people"
+            app:layout_constraintTop_toTopOf="@+id/people" />
+
+        <ImageView
+            android:id="@+id/gambar_restoran"
+            android:layout_width="0dp"
+            android:layout_height="250dp"
+            android:layout_marginTop="84dp"
+            android:src="@drawable/restoran"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/store_kedua"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="40dp"
+            android:text="@string/storekedua"
+            android:textColor="#733F0E"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/gambar_restoran" />
+
+        <TextView
+            android:id="@+id/Tempat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="260dp"
+            android:layout_marginTop="40dp"
+            android:text="@string/tempat"
+            android:textColor="#733F0E"
+            android:textSize="19sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/gambar_restoran" />
+
+        <TextView
+            android:id="@+id/location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="32dp"
+            android:text="@string/location"
+            android:textColor="#733F0E"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/store_kedua" />
+
+        <TextView
+            android:id="@+id/maps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="220dp"
+            android:layout_marginTop="32dp"
+            android:text="@string/maps"
+            android:textColor="#733F0E"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/store_kedua" />
+
+        <ImageView
+            android:id="@+id/logomaps"
+            android:layout_width="27dp"
+            android:layout_height="28dp"
+            android:layout_marginStart="8dp"
+            android:src="@drawable/location"
+            app:layout_constraintStart_toEndOf="@id/maps"
+            app:layout_constraintTop_toTopOf="@+id/maps" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="See Menus"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="#D52F2F"
+            android:textColor="#FFFFFF"
+            app:cornerRadius="0dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/maps" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
