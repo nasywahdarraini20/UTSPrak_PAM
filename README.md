@@ -1,6 +1,10 @@
 # UTSPrak_PAM
 
-Nasywah Darraini_1217050109_Kelas Praktikum A 
+Nama: Nasywah Darraini
+
+NIM: 1217050109 
+
+Kelas: Praktikum A 
 
 Tampilan 1 
 
